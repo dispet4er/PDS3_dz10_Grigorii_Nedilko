@@ -12,8 +12,8 @@ def month_name():
         return month_str[month_num]
     except IndexError as ex1:
         print(f'month can be in range from 1 to 12. please proceed accordingly {ex1}')
-    except ValueError as ex3:
-        print(f'please enter the number not the text')
+    except ValueError as ex2:
+        print(f'please enter the number not the text {ex2}')
     finally:
         print(f'successfully done!')
 
